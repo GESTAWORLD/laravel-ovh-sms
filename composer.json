@@ -12,13 +12,17 @@
     "require": {
         "php": ">=5.5.9",
         "illuminate/support": ">=5.1",
-        "ovh/php-ovh-sms": "1.0"
+        "ovh/php-ovh-sms": "dev-master#52d279e112a7da8f897745acab32a887321e03f1"
     },
     "autoload": {
         "psr-4": {
             "Akibatech\\Ovhsms\\": "src/"
         }
     },
+    "repositories": [{
+        "type": "vcs",
+        "url": "git@github.com:ovh/php-ovh-sms.git"
+    }],
     "minimum-stability": "dev",
     "prefer-stable": true
 }
